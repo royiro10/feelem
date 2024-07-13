@@ -18,6 +18,12 @@
    npm install husky --save-dev
    ```
 
+   then init your husky project:
+
+   ```bash
+   npx husky init
+   ```
+
 2. **Install `feelem`:**
 
    ```bash

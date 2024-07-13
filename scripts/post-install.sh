@@ -5,7 +5,7 @@ if [ ! -d $HUSKY_DIR_PATH ]; then
     exit 1
 fi
 
-RUN_COMMIT_MSG_COMMAND="./node_modules/pkg/scripts/commit-msg.sh \$@"
+RUN_COMMIT_MSG_COMMAND="./node_modules/feelem/scripts/commit-msg.sh \$@"
 COMMIT_MSG_HOOK_FILE=$HUSKY_DIR_PATH/commit-msg
 
 if ! grep -q "${RUN_COMMIT_MSG_COMMAND}" "$COMMIT_MSG_HOOK_FILE"; then
