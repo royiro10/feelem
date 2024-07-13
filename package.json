@@ -1,0 +1,20 @@
+{
+  "name": "feelem",
+  "version": "1.0.0",
+  "author": "royiro10",
+  "description": "A Git hook that prefixes commit messages with emojis based on the commit topic, using Husky for easy setup and a customizable emoji table.",
+  "keywords": [],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/royiro10/feelem"
+  },
+  "main": "./scripts/commit-msg.sh",
+  "scripts": {
+    "postinstall": "bash ./scripts/post-install.sh"
+  },
+  "dependencies": {
+    "@google/generative-ai": "^0.14.1",
+    "husky": "^9.0.11"
+  }
+}
