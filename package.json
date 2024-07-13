@@ -1,6 +1,6 @@
 {
   "name": "feelem",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "author": "royiro10",
   "description": "A Git hook that prefixes commit messages with emojis based on the commit topic, using Husky for easy setup and a customizable emoji table.",
   "keywords": [],
